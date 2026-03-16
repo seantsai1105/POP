@@ -1,0 +1,52 @@
+[
+  {
+    "layer": 16,
+    "head": 23,
+    "selected_frequency": 0.3875
+  },
+  {
+    "layer": 18,
+    "head": 19,
+    "selected_frequency": 0.298
+  },
+  {
+    "layer": 20,
+    "head": 15,
+    "selected_frequency": 0.2815
+  },
+  {
+    "layer": 17,
+    "head": 4,
+    "selected_frequency": 0.2575
+  },
+  {
+    "layer": 15,
+    "head": 13,
+    "selected_frequency": 0.232
+  },
+  {
+    "layer": 18,
+    "head": 5,
+    "selected_frequency": 0.203
+  },
+  {
+    "layer": 19,
+    "head": 31,
+    "selected_frequency": 0.2015
+  },
+  {
+    "layer": 20,
+    "head": 21,
+    "selected_frequency": 0.198
+  },
+  {
+    "layer": 18,
+    "head": 18,
+    "selected_frequency": 0.191
+  },
+  {
+    "layer": 20,
+    "head": 16,
+    "selected_frequency": 0.1795
+  }
+]

@@ -1,0 +1,106 @@
+{
+  "high_resolution": [
+    {
+      "layer": 19,
+      "head": 23,
+      "selected_frequency": 0.396
+    },
+    {
+      "layer": 19,
+      "head": 17,
+      "selected_frequency": 0.343
+    },
+    {
+      "layer": 19,
+      "head": 22,
+      "selected_frequency": 0.33
+    },
+    {
+      "layer": 16,
+      "head": 1,
+      "selected_frequency": 0.317
+    },
+    {
+      "layer": 14,
+      "head": 15,
+      "selected_frequency": 0.29
+    },
+    {
+      "layer": 20,
+      "head": 21,
+      "selected_frequency": 0.273
+    },
+    {
+      "layer": 18,
+      "head": 10,
+      "selected_frequency": 0.264
+    },
+    {
+      "layer": 14,
+      "head": 2,
+      "selected_frequency": 0.262
+    },
+    {
+      "layer": 16,
+      "head": 7,
+      "selected_frequency": 0.256
+    },
+    {
+      "layer": 17,
+      "head": 24,
+      "selected_frequency": 0.244
+    }
+  ],
+  "low_resolution": [
+    {
+      "layer": 16,
+      "head": 1,
+      "selected_frequency": 0.455
+    },
+    {
+      "layer": 19,
+      "head": 15,
+      "selected_frequency": 0.449
+    },
+    {
+      "layer": 19,
+      "head": 23,
+      "selected_frequency": 0.445
+    },
+    {
+      "layer": 19,
+      "head": 17,
+      "selected_frequency": 0.421
+    },
+    {
+      "layer": 19,
+      "head": 22,
+      "selected_frequency": 0.418
+    },
+    {
+      "layer": 16,
+      "head": 0,
+      "selected_frequency": 0.386
+    },
+    {
+      "layer": 17,
+      "head": 24,
+      "selected_frequency": 0.303
+    },
+    {
+      "layer": 14,
+      "head": 15,
+      "selected_frequency": 0.293
+    },
+    {
+      "layer": 16,
+      "head": 7,
+      "selected_frequency": 0.292
+    },
+    {
+      "layer": 14,
+      "head": 2,
+      "selected_frequency": 0.292
+    }
+  ]
+}

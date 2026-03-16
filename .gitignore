@@ -1,0 +1,13 @@
+# ignore dataset
+data/*
+
+# python
+__pycache__/
+*.pyc
+
+# checkpoints
+*.pt
+*.pth
+
+# system
+.DS_Store
