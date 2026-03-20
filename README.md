@@ -9,5 +9,18 @@
 
 ## TL;DR
 ## Install
+1. Clone this repository
+```bash
+git clone https://github.com/seantsai1105/POP.git
+cd POP
+```
+
+2. Install Package
+```Shell
+conda create -n pop python=3.10 -y
+conda activate pop
+pip install -r requirements.txt
+```
+
 ## Data Preparation
 ## Evaluation
