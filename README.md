@@ -38,7 +38,8 @@ Please download the original images for each dataset:
 
 #### PartImageNet++
 [official link]
-## Dataset Structure
+
+### 3. Dataset Structure
 
 After downloading all required files (annotations and images), please organize the project directory as follows:
 ```
