@@ -28,20 +28,23 @@ Download the preprocessed annotation files from our release:
 [link_here]
 
 ### 2. Download Raw Images
+
 Please download the original images for each dataset:
 
-#### PACO
-[official link]
+#### PACO-LVIS (PACO)
+PACO uses images from the COCO 2017 dataset. Please download the images from the [official COCO website](https://cocodataset.org/#download).
 
 #### InstructPart
-[official link]
+Please follow the instructions in the [official repository](https://github.com/zifuwan/InstructPart) to prepare the InstructPart dataset.
 
 #### PartImageNet++
-[official link]
+PartImageNet++ uses images from ImageNet. Please download the ImageNet 2012 images from the [official ImageNet website](https://www.image-net.org/challenges/LSVRC/2012/).
 
-### 3. Dataset Structure
+### 3. Dataset Hierarchy
 
-After downloading all required files (annotations and images), please organize the project directory as follows:
+<details><summary> After downloading all required files (annotations and images), please organize the project directory as follows: </summary>
+
+
 ```
 project_root/
 ├── data/
@@ -75,4 +78,8 @@ project_root/
 ├── eval/
 └── model/
 ```
+  
+</details>
+
+
 ## Evaluation
