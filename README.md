@@ -25,20 +25,20 @@ pip install -r requirements.txt
 ## Data Preparation
 ### 1. Download Preprocessed Annotations
 Download the preprocessed annotation files from our release:
-[link_here]
+[data](https://github.com/seantsai1105/POP/releases/tag/data)
 
-### 2. Download Raw Images
+### 2. Download Images
 
 Please download the original images for each dataset:
 
 #### PACO-LVIS (PACO)
-PACO uses images from the COCO 2017 dataset. Please download the images from the [official COCO website](https://cocodataset.org/#download).
+PACO uses images from the COCO-2017 dataset. Please download the images from the [official COCO website](https://cocodataset.org/#download).
 
 #### InstructPart
-Please follow the instructions in the [official repository](https://github.com/zifuwan/InstructPart) to prepare the InstructPart dataset.
+Please follow the instructions in the [official repository of InstructPart](https://github.com/zifuwan/InstructPart) to prepare the dataset.
 
 #### PartImageNet++
-PartImageNet++ uses images from ImageNet. Please download the ImageNet 2012 images from the [official ImageNet website](https://www.image-net.org/challenges/LSVRC/2012/).
+PartImageNet++ uses images from ImageNet-10K. Please download the images from the [official ImageNet website](https://www.image-net.org/challenges/LSVRC/2012/).
 
 ### 3. Dataset Hierarchy
 
@@ -83,3 +83,5 @@ project_root/
 
 
 ## Evaluation
+
+## Citation
