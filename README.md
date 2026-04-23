@@ -127,9 +127,7 @@ python eval/eval_partimagenet++.py \
 
 <table>
 <tr>
-<td valign="top">
-
-<b>VLM</b>
+<td width="45%" valign="top">
 
 | VLM | `--vlm-checkpoint` |
 |---|---|
@@ -141,9 +139,9 @@ python eval/eval_partimagenet++.py \
 
 </td>
 
-<td valign="top">
+<td width="10%"></td> <!-- 👈 這個就是空一行的關鍵 -->
 
-<b>Vision Backbone</b>
+<td width="45%" valign="top">
 
 | Vision Backbone | `--vision-backbone-checkpoint` |
 |---|---|
