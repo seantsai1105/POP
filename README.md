@@ -125,6 +125,12 @@ python eval/eval_partimagenet++.py \
 
 ### Supported Models
 
+<table>
+<tr>
+<td valign="top">
+
+<b>VLM</b>
+
 | VLM | `--vlm-checkpoint` |
 |---|---|
 | Qwen2.5-VL-7B | `Qwen/Qwen2.5-VL-7B-Instruct` |
@@ -133,10 +139,20 @@ python eval/eval_partimagenet++.py \
 | InternVL3-8B | `OpenGVLab/InternVL3-8B` |
 | Kimi-VL-A3B | `moonshotai/Kimi-VL-A3B-Instruct` |
 
+</td>
+
+<td valign="top">
+
+<b>Vision Backbone</b>
+
 | Vision Backbone | `--vision-backbone-checkpoint` |
 |---|---|
 | DINOv3-ViT-L/16 (default) | `facebook/dinov3-vitl16-pretrain-lvd1689m` |
 | DINOv2-ViT-L/14 | `facebook/dinov2-large` |
+
+</td>
+</tr>
+</table>
 
 `--selected-heads-file` is inferred from `--vlm-checkpoint` automatically. To override, pass a path under `model/vlm_modules/vlm_selected_heads_files/`.
 
