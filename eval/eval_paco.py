@@ -1,7 +1,6 @@
 import os
 import json
 import random
-import torch
 import argparse
 import numpy as np
 import cv2
@@ -112,14 +111,14 @@ if __name__ == '__main__':
             'facebook/dinov2-large'
         ]
     )
-    parser.add_argument('--selected-heads-file', type=str, default='./model/vlm_modules/vlm_selected_heads_files/molmo_d_7b.json')
+    parser.add_argument('--selected-heads-file', type=str, default=None,
+        help='Path to selected-heads JSON; auto-inferred from --vlm-checkpoint if omitted.')
     parser.add_argument('--num-selected-heads', type=int, default=3)
     parser.add_argument('--k-shots', type=int, default=1)
     parser.add_argument('--device', type=str, default='cuda:0')
     parser.add_argument('--dataset', type=str, default='./data/PACO/paco_lvis_v1_test_part_anns_with_query.json')
-    parser.add_argument('--support_set', type=str, default='./data/PACO/paco_lvis_v1_train_preprocessed.json')
+    parser.add_argument('--support-set', type=str, default='./data/PACO/paco_lvis_v1_train_preprocessed.json')
     parser.add_argument('--image-root', type=str, default='./data/PACO/coco')
-    parser.add_argument('--image-size', type=int, default='1024')
     parser.add_argument('--random-seed', type=int, default=0)
     args = parser.parse_args()
     

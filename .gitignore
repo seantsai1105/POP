@@ -1,13 +1,21 @@
 # ignore dataset
 data/*
+data.zip
 
 # python
 __pycache__/
 *.pyc
+*.egg-info/
+.ipynb_checkpoints/
 
 # checkpoints
 *.pt
 *.pth
+
+# environment / editor
+.vscode/
+.idea/
+*.swp
 
 # system
 .DS_Store
