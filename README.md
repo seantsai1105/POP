@@ -1,4 +1,4 @@
-# Pointing at Parts: Training-Free Few-Shot Grounding in Multimodal LLMs [CVPR 2026]
+# [CVPR 2026] Pointing at Parts: Training-Free Few-Shot Grounding in Multimodal LLMs
 
 ## Table of Contents
 
@@ -29,8 +29,6 @@
    conda activate pop
    pip install -e .
    ```
-   This installs all dependencies from `requirements.txt` and makes the `model` package importable from anywhere (no `sys.path` hacks needed).
-
 
 ## Data Preparation
 
