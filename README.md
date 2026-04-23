@@ -1,4 +1,4 @@
-# [CVPR 2026] Pointing at Parts: Training-Free Few-Shot Grounding in Multimodal LLMs
+# Pointing at Parts: Training-Free Few-Shot Grounding in Multimodal LLMs
 
 ## Table of Contents
 
