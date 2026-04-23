@@ -23,12 +23,13 @@
    cd POP
    ```
 
-2. Create a conda environment and install the dependencies
+2. Create a conda environment and install the package
    ```bash
    conda create -n pop python=3.10 -y
    conda activate pop
-   pip install -r requirements.txt
+   pip install -e .
    ```
+   This installs all dependencies from `requirements.txt` and makes the `model` package importable from anywhere (no `sys.path` hacks needed).
 
 
 ## Data Preparation

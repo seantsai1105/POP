@@ -4,9 +4,6 @@ import random
 import argparse
 import numpy as np
 import cv2
-import sys
-
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from tqdm import tqdm
 from pycocotools import mask as maskUtils

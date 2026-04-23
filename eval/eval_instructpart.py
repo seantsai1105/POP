@@ -4,14 +4,11 @@ import random
 import argparse
 import numpy as np
 import cv2
-import sys
-
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from tqdm import tqdm
 from pycocotools import mask as maskUtils
-from model.few_shot_pointer import FewShotPointer
 from PIL import Image
+from model.few_shot_pointer import FewShotPointer
 
 def get_inner_most_point(mask_path):
     binary_mask = np.array(Image.open(mask_path))

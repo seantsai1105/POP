@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pop"
+version = "0.1.0"
+description = "Pointing at Parts: Training-Free Few-Shot Grounding in Multimodal LLMs (CVPR 2026)"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    {name = "Shiang-Feng Tsai"},
+    {name = "Yuan-Hong Liao"},
+    {name = "Jin-Cheng Jhang"},
+    {name = "Nan Qiao"},
+    {name = "Min Sun"},
+]
+dynamic = ["dependencies"]
+
+[project.urls]
+Homepage = "https://github.com/seantsai1105/POP"
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[tool.setuptools.packages.find]
+include = ["model*"]
+
+[tool.setuptools.package-data]
+"model.vlm_modules" = ["vlm_selected_heads_files/*.json"]
