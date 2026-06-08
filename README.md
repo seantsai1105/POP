@@ -171,4 +171,12 @@ Part-pointing accuracy (%) in the 1-shot setting with DINOv3-ViT-L/16. See the p
 Our paper will appear at CVPR 2026. The BibTeX below is a placeholder and will be updated once the proceedings are available.
 
 ```bibtex
+@InProceedings{Tsai_2026_CVPR,
+    author    = {Tsai, Shiang-Feng and Liao, Yuan-Hong and Jhang, Jin-Cheng and Qiao, Nan and Sun, Min},
+    title     = {Pointing at Parts: Training-Free Few-Shot Grounding in Multimodal LLMs},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2026},
+    pages     = {33922-33932}
+}
 ```
